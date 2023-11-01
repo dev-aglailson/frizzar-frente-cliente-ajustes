@@ -545,8 +545,8 @@ a {
   display: flex;
 }
 .principal .section-avaliacoes .div-avaliacoes .box-avaliacoes .avaliacao .img-nome-cliente-avaliacao .div-img-nome-data .div-img {
-  width: 50px;
-  height: 50px;
+  width: 40px;
+  height: 40px;
   background-color: #2c3641;
   border-radius: 100%;
   display: flex;
@@ -560,6 +560,7 @@ a {
 }
 .principal .section-avaliacoes .div-avaliacoes .box-avaliacoes .avaliacao .img-nome-cliente-avaliacao .div-img-nome-data .nome-data {
   margin-left: 15px;
+  font-size: 0.9em;
 }
 .principal .section-avaliacoes .div-avaliacoes .box-avaliacoes .avaliacao .img-nome-cliente-avaliacao .div-img-nome-data .nome-data .nome {
   font-weight: bolder;
@@ -573,8 +574,8 @@ a {
   display: flex;
 }
 .principal .section-avaliacoes .div-avaliacoes .box-avaliacoes .avaliacao .img-nome-cliente-avaliacao .lista-avaliacao .star {
-  width: 18px;
-  margin-right: 5px;
+  width: 16px;
+  margin-right: 3px;
 }
 .principal .section-avaliacoes .div-avaliacoes .box-avaliacoes .avaliacao .comentario-avaliacao {
   margin-top: 20px;
