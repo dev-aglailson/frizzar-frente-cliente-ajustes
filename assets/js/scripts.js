@@ -28,7 +28,7 @@ $(document).ready(function(){
 
     slideStory.addEventListener('click', function(e){
 
-        if((e.target.id == 'box-story-grande-slide' ||  e.target.id == 'content-slide') && slideStoryAberto){
+        if((e.target.id == 'btn-fecha-box') && slideStoryAberto){
             toggleSlideStory()
         }
 
@@ -57,7 +57,7 @@ $(document).ready(function(){
     
     const swiperBanner = new Swiper('.banner', {
         loop:true,
-        effect:'slide',
+        effect:'fade',
         autoplay: {
             delay: 300,
             disableOnInteraction:false,
@@ -73,6 +73,10 @@ $(document).ready(function(){
     const swiperSlideStory = new Swiper('.slide-story-grande', {
         effect: 'cards',
         grabCursor: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
 
         
     });
