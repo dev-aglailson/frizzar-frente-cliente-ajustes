@@ -182,22 +182,20 @@ a {
   font-size: 10px;
   color: #FFF;
 }
-.cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .div-avaliacao .infos-endereco {
+.cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .infos-endereco {
   display: none;
   justify-content: space-between;
   align-items: center;
-  margin-left: 30px;
 }
-.cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .div-avaliacao .infos-endereco .div-infos-endereco {
+.cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .infos-endereco .div-infos-endereco {
   display: flex;
-  margin-left: 5px;
   align-items: center;
 }
-.cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .div-avaliacao .infos-endereco .div-infos-endereco img#icon-location {
+.cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .infos-endereco .div-infos-endereco img#icon-location {
   width: 12px;
   margin-right: 6px;
 }
-.cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .div-avaliacao .infos-endereco .div-infos-endereco .endereco {
+.cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .infos-endereco .div-infos-endereco .endereco {
   color: #FFF;
   font-size: 10px;
   line-height: 3;
@@ -260,7 +258,7 @@ a {
 }
 .principal .section-story .div-story {
   border-radius: 6px 6px 0 0;
-  padding: 4% 0;
+  padding: 0;
 }
 .principal .section-story .div-story .lista-story {
   max-width: 550px;
@@ -629,7 +627,7 @@ a {
     padding: 0 6%;
   }
   .cabecalho {
-    height: 30.5vh;
+    height: 300px;
   }
   .principal .section-story {
     margin-top: 20px;
@@ -640,7 +638,7 @@ a {
     padding: 0 10%;
   }
   .cabecalho {
-    height: 40vh;
+    height: 490px;
   }
   .cabecalho .content-banner .box-infos-empresa .coll-01 .content-btns-e-conta .lista-btns ul.lista li.btn {
     padding: 10px 15px;
@@ -665,13 +663,13 @@ a {
   .cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .div-avaliacao .quantidade-avaliacoes {
     font-size: 0.9em;
   }
-  .cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .div-avaliacao .infos-endereco {
+  .cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .infos-endereco {
     display: flex;
   }
-  .cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .div-avaliacao .infos-endereco .div-infos-endereco img#icon-location {
+  .cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .infos-endereco .div-infos-endereco img#icon-location {
     width: 10px;
   }
-  .cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .div-avaliacao .infos-endereco .div-infos-endereco .endereco {
+  .cabecalho .content-banner .box-infos-empresa .coll-02 .content-titles-logo .div-title-avaliacao-local .infos-endereco .div-infos-endereco .endereco {
     font-size: 0.9em;
   }
   .principal .section-botoes .div-botoes .btn-compartilhar span.compartilhar {
@@ -687,6 +685,7 @@ a {
     display: initial;
   }
   .principal .section-story .box-story-grande-slide .content-slide .slide-story-grande .swiper-button-next {
+    height: 20px;
     right: -82px;
   }
   .principal .section-story .box-story-grande-slide .content-slide .slide-story-grande .swiper-button-prev {
@@ -740,7 +739,7 @@ a {
     padding: 0 14%;
   }
   .cabecalho {
-    height: 46vh;
+    height: 490px;
   }
 }
 @media screen and (min-width: 1400px) {
