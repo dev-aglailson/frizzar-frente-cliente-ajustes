@@ -742,7 +742,7 @@ a {
     height: 490px;
   }
 }
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1280px) {
   .principal .section-botoes .div-botoes .btn-agendamento {
     position: relative;
     z-index: 9;
