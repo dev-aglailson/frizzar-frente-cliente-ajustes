@@ -202,7 +202,7 @@ a {
 }
 
 .principal .section-botoes .div-botoes {
-  display: flex;
+  display: none;
   justify-content: flex-end;
   align-items: center;
   padding-bottom: 10px;
@@ -629,9 +629,6 @@ a {
   .cabecalho {
     height: 300px;
   }
-  .principal .section-story {
-    margin-top: 20px;
-  }
 }
 @media screen and (min-width: 768px) {
   .container {
@@ -743,6 +740,10 @@ a {
   }
 }
 @media screen and (min-width: 1280px) {
+  .principal .section-botoes .div-botoes {
+    margin-top: -30px;
+    display: flex;
+  }
   .principal .section-botoes .div-botoes .btn-agendamento {
     position: relative;
     z-index: 9;
