@@ -81,6 +81,30 @@ $(document).ready(function(){
         
     });
 
+    const swiperSlideAvaliacao = new Swiper('.slider-avaliacoes', {
+        slidesPerView: 1,
+        grid: {
+          rows: 2,
+        },
+        spaceBetween: 20,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+            // when window width is >= 320px
+            680: {
+              slidesPerView: 2,
+              spaceBetween: 20
+            }
+        },
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+        },
+        
+    });
+
     const swiperStory = new Swiper('.slide-story', {
         loop:false,
         effect:'slide',
