@@ -4,7 +4,11 @@ $(document).ready(function(){
     var slideStory  = document.querySelector('.box-story-grande-slide')
     var slideStoryAberto = false
     var btnToggleDias = document.querySelector('.btb-toggle-dias')
-
+    var boxRedes = document.querySelector('.box-redes-sociais')
+    var btnAbreRedes = document.querySelector('.btn-abre-redes')
+    var btnFechaRedes = document.querySelector('.btn-fecha-redes')
+    var boxRedesAberto = false
+    
     btnsStories.forEach(btn=>{
         btn.addEventListener('click', function(){
 
@@ -31,6 +35,30 @@ $(document).ready(function(){
         if((e.target.id == 'btn-fecha-box') && slideStoryAberto){
             toggleSlideStory()
         }
+
+    })
+
+    function toggleBoxRedes(){
+
+        if(!boxRedesAberto){
+            boxRedes.classList.add('box-redes-sociais-open')
+            boxRedesAberto = true
+        }else{
+            boxRedes.classList.remove('box-redes-sociais-open')
+            boxRedesAberto = false
+        }
+
+    }
+
+    btnAbreRedes.addEventListener('click', function(e){
+        e.preventDefault()
+        toggleBoxRedes()
+
+    })
+    console.log(btnFechaRedes)
+    btnFechaRedes.addEventListener('click', function(e){
+        e.preventDefault()
+        toggleBoxRedes()
 
     })
 
