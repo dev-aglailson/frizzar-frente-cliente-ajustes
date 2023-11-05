@@ -382,6 +382,9 @@ a {
   width: 90px;
   background-color: #FA0150;
 }
+.principal .section-sobre-contato-diferenciais .content-sobre {
+  margin-bottom: 20px;
+}
 .principal .section-sobre-contato-diferenciais .content-sobre .div-sobre {
   background-color: #fff;
   border-radius: 6px;
@@ -417,16 +420,67 @@ a {
   flex-basis: 100%;
 }
 .principal .section-sobre-contato-diferenciais .content-contato .div-contato {
+  margin-bottom: 20px;
+  background-color: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 0 3px 24px #dee3e7;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-title {
+  margin-bottom: 20px;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .contato-numero {
+  display: flex;
+  padding: 10px 15px;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .contato-numero .numero {
+  font-size: 1.1em;
+  font-weight: 600;
+  color: #1F2B35;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .contato-numero .icon-numero {
+  width: 18px;
+  margin-right: 15px;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .div-como-chegar {
+  padding: 15px;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .redes-sociais {
+  border-top: 1px solid #ccc;
+  padding-top: 5px;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .redes-sociais .lista-redes {
+  display: flex;
+  justify-content: space-around;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .redes-sociais .lista-redes .rede:nth-child(1) {
+  border-right: 1px solid #CCC;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .redes-sociais .lista-redes .rede {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .redes-sociais .lista-redes .rede .link {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: block;
+  text-align: center;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .div-contato .redes-sociais .lista-redes .rede .link .icon-rede {
+  width: 20px;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .box-dias-funcionamento {
+  display: flex;
+  flex-direction: column;
   background-color: #fff;
   border-radius: 6px;
   padding: 20px;
   box-shadow: 0 3px 24px #dee3e7;
   margin-bottom: 50px;
 }
-.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-title {
-  margin-bottom: 20px;
-}
-.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-title .empresa-status {
+.principal .section-sobre-contato-diferenciais .content-contato .box-dias-funcionamento .box-title .empresa-status {
   font-size: 0.6em;
   font-weight: lighter;
   margin-left: 30px;
@@ -435,19 +489,7 @@ a {
   padding: 5px;
   border-radius: 3px;
 }
-.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento {
-  display: flex;
-  flex-direction: column;
-}
-.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .contato-numero {
-  display: flex;
-  padding: 10px 15px;
-}
-.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .contato-numero .icon-numero {
-  width: 18px;
-  margin-right: 15px;
-}
-.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .btb-toggle-dias {
+.principal .section-sobre-contato-diferenciais .content-contato .box-dias-funcionamento .btb-toggle-dias {
   background: transparent;
   outline: none;
   border: none;
@@ -457,54 +499,36 @@ a {
   padding: 15px;
   cursor: pointer;
 }
-.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .btb-toggle-dias .icon-btn-funcionamento {
+.principal .section-sobre-contato-diferenciais .content-contato .box-dias-funcionamento .btb-toggle-dias .btn-open-funcionamento {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.principal .section-sobre-contato-diferenciais .content-contato .box-dias-funcionamento .btb-toggle-dias .btn-open-funcionamento .icon-btn-funcionamento {
   width: 15px;
   transition: 0.3s;
 }
-.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .btb-toggle-dias .icon-btn-funcionamento-open {
+.principal .section-sobre-contato-diferenciais .content-contato .box-dias-funcionamento .btb-toggle-dias .btn-open-funcionamento .icon-btn-funcionamento-open {
   transform: rotate(180deg);
 }
-.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .div-dias {
+.principal .section-sobre-contato-diferenciais .content-contato .box-dias-funcionamento .div-dias {
   max-height: 0;
   overflow: hidden;
   transition: 0.3s;
 }
-.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .div-dias .content {
+.principal .section-sobre-contato-diferenciais .content-contato .box-dias-funcionamento .div-dias .content {
   padding: 15px;
 }
-.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .div-dias .content .lista-dias-funcionamento .dia {
+.principal .section-sobre-contato-diferenciais .content-contato .box-dias-funcionamento .div-dias .content .lista-dias-funcionamento .dia {
   color: #4e4d4d;
   border-bottom: 1px solid #ccc;
   padding: 10px 0;
-}
-.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .div-como-chegar {
-  padding: 15px;
-}
-.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .redes-sociais {
-  border-top: 1px solid #ccc;
-  padding-top: 5px;
-}
-.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .redes-sociais .lista-redes {
   display: flex;
-  justify-content: space-around;
-}
-.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .redes-sociais .lista-redes .rede:nth-child(1) {
-  border-right: 1px solid #CCC;
-}
-.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .redes-sociais .lista-redes .rede {
-  flex: 1;
-  display: flex;
-  justify-content: center;
-}
-.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .redes-sociais .lista-redes .rede .link {
-  width: 100%;
-  height: 100%;
-  padding: 10px;
-  display: block;
-  text-align: center;
-}
-.principal .section-sobre-contato-diferenciais .content-contato .div-contato .box-dias-funcionamento .redes-sociais .lista-redes .rede .link .icon-rede {
-  width: 20px;
+  justify-content: space-between;
 }
 .principal .section-avaliacoes .div-avaliacoes {
   background-color: #fff;
@@ -740,8 +764,26 @@ a {
   .principal .section-sobre-contato-diferenciais .container .content-sobre {
     flex-basis: 69%;
   }
+  .principal .section-sobre-contato-diferenciais .container .content-sobre .div-sobre {
+    min-height: 100%;
+  }
   .principal .section-sobre-contato-diferenciais .container .content-contato {
     flex-basis: 29%;
+  }
+  .principal .section-sobre-contato-diferenciais .container .content-contato .div-contato {
+    padding-bottom: 0;
+  }
+  .principal .section-sobre-contato-diferenciais .container .content-contato .div-contato .box-title {
+    margin-bottom: 5px;
+  }
+  .principal .section-sobre-contato-diferenciais .container .content-contato .div-contato .redes-sociais {
+    padding-top: 0;
+  }
+  .principal .section-sobre-contato-diferenciais .container .content-contato .box-dias-funcionamento {
+    margin-bottom: 20px;
+  }
+  .principal .section-sobre-contato-diferenciais .container .content-contato .box-dias-funcionamento .box-title {
+    margin-bottom: 0px;
   }
 }
 @media screen and (min-width: 1024px) {
